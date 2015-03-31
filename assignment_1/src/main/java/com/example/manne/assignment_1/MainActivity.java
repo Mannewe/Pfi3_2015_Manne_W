@@ -1,9 +1,14 @@
 package com.example.manne.assignment_1;
 
+import android.content.res.Resources;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Button;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,6 +17,24 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        final TextView quote = (TextView)findViewById(R.id.quotestxt);
+        Resources res = getResources();
+
+        final String[] quotes = res.getStringArray(R.array.quotes);
+
+        Button button = (Button)findViewById(R.id.button);
+
+
+        button.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                    Log.i("hej", "Button pressed");
+                    final int rando = (int) (Math.random()*3);
+                    quote.setText(quotes[rando]);
+                    }
+                }
+
+        );
     }
 
 

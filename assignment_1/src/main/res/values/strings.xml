@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name" translatable="false">Assignment_1</string>
+    <string name="app_name">Assignment_1</string>
 
     <string name="hello_world" translatable="false">Hello world!</string>
     <string name="action_settings" translatable="false">Settings</string>
     <string-array name="quotes">
-        <item>We are all here on earth to help others; what on earth
-        the others are here for I don't know.</item>
+        <item>We are all here on earth to help others, what on earth
+        the others are here for I do not know.</item>
         <item>My fake plants died because I did not pretend to water them.</item>
         <item>All men are equal before fish.</item>
     </string-array>
-    <string name="name" translatable="false">Random quotes!</string>
+    <string name="name">Random quotes!</string>
     <string name="button">Next quote</string>
-    <string name="title">Random quotes!</string>
+    <string name="title">Quotefish Hubert</string>
 </resources>

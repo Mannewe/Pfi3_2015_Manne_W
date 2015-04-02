@@ -2,4 +2,12 @@
 <resources>
     <string name="button">Nästa citat</string>
     <string name="title">Slumpmässiga citat!</string>
+    <string name="app_name">Uppgift_1</string>
+    <string-array name="quotes">
+        <item>Vi är alla här på jorden för att hjälpa, men vad vad i
+            hela världen alla andra gör här vet jag inte.</item>
+        <item>Mina falska plantor dog för jag glömde låtsas vattna dem.</item>
+        <item>Alla män är jämnlika framför fisk</item>
+    </string-array>
+    <string name="name">Citatfisken Hubert</string>
 </resources>

@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Button;
 
-
+//samsung galaxy core plus - 480*800pix
 public class MainActivity extends ActionBarActivity {
 
     @Override
@@ -23,12 +23,12 @@ public class MainActivity extends ActionBarActivity {
         final String[] quotes = res.getStringArray(R.array.quotes);
 
         Button button = (Button)findViewById(R.id.button);
-
-
+        Log.i("OnCreate","Launched");
+        quote.getTextColors();
         button.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
-                    Log.i("hej", "Button pressed");
+                    Log.i("MyApp", "Button pressed");
                     final int rando = (int) (Math.random()*3);
                     quote.setText(quotes[rando]);
                     }
@@ -38,11 +38,32 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+
+    protected void onPause(){
+        super.onPause();
+        Log.i("OnPause", "Paused");
+    }
+
+    protected void onStop(){
+        super.onStop();
+        Log.i("OnStop","Stopped");
+    }
+
+    protected void onResume(){
+        super.onResume();
+        Log.i("OnResume","Resumed");
+    }
+
+    protected void onDestroy(){
+        super.onDestroy();
+        Log.i("OnDestroyed","Destroyed");
     }
 
     @Override

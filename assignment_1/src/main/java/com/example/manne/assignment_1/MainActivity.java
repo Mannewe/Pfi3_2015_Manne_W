@@ -25,6 +25,7 @@ public class MainActivity extends ActionBarActivity {
         Button button = (Button)findViewById(R.id.button);
         Log.i("OnCreate","Launched");
         quote.getTextColors();
+
         button.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {

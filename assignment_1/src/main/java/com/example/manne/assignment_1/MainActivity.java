@@ -47,21 +47,31 @@ public class MainActivity extends ActionBarActivity {
         return true;
     }
 
+    @Override
     protected void onPause(){
         super.onPause();
         Log.i("OnPause", "Paused");
     }
 
+    @Override
+    protected void onStart(){
+        super.onStart();
+        Log.i("OnStart", "Started");
+    }
+
+    @Override
     protected void onStop(){
         super.onStop();
         Log.i("OnStop","Stopped");
     }
 
+    @Override
     protected void onResume(){
         super.onResume();
         Log.i("OnResume","Resumed");
     }
 
+    @Override
     protected void onDestroy(){
         super.onDestroy();
         Log.i("OnDestroyed","Destroyed");

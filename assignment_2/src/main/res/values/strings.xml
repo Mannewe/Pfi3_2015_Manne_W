@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Skånetrafiken</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Reseplanerare</string>
+    <string name="calendar">Tidtabell</string>
+    <string name="stationSearch">Hållplatssök</string>
+    <string name="tickets">Biljetter</string>
+    <string name="title">Skånetrafiken</string>
+    <string name="from">Malmö C</string>
+    <string name="to">Ubåtshallen</string>
+    <string name="fran">Från</string>
+    <string name="till">Till</string>
+    <string name="favo">Favoriter</string>
+    <string name="label1">Tid/Datum</string>
+    <string name="label2">Just nu</string>
+    <string name="button1">Ändra</string>
+    <string name="trafikslag">Trafikslag</string>
+    <string name="bevakning">Bevakningar</string>
+    <string name="apptitle">Skånetrafiken</string>
+    <string name="avgang">Avgång</string>
+    <string name="ankomst">Ankomst</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

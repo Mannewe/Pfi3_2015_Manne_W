@@ -1,0 +1,213 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.manne.assignment_2.Planner"
+android:background="#fff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="78dp"
+        android:layout_gravity="center_horizontal|top"
+        android:id="@+id/fromto">
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/fran"
+            android:id="@+id/frantxt"
+            android:layout_alignParentTop="true"
+            android:background="#FFDF000D"
+            android:layout_toStartOf="@+id/stationtxt"
+            android:layout_marginEnd="5dp" />
+
+        <EditText
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stationtxt"
+            android:text="@string/from"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="62dp" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_width="48dp"
+            android:background="#FFDF000D"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:text="@string/till"
+            android:id="@+id/till"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/stationtxt"
+            android:layout_marginStart="15dp" />
+
+        <EditText
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/station2txt"
+            android:text="@string/to"
+            android:layout_marginLeft="40dp"
+
+            android:layout_marginTop="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignStart="@+id/stationtxt" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:background="#8d000000"
+        android:layout_marginTop="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/fromto"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#FFDF000D"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favo"
+
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="130dp"
+                android:id="@+id/fav" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="#fff"
+        android:layout_marginTop="148dp"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label1"
+            android:id="@+id/labeltid"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="34dp" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label2"
+            android:id="@+id/labeljustnu"
+            android:layout_alignBottom="@+id/labeltid"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button1"
+            android:id="@+id/button1"
+            android:layout_alignBaseline="@+id/labeljustnu"
+            android:layout_alignBottom="@+id/labeljustnu"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="14dp" />
+
+        <RadioButton
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ankomst"
+            android:id="@+id/radioButton1"
+            android:layout_below="@+id/button1"
+            android:layout_alignStart="@+id/labeltid"
+            android:layout_marginTop="43dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avgang"
+            android:id="@+id/radioButton2"
+            android:layout_alignBottom="@+id/radioButton1"
+            android:layout_marginLeft="200dp"
+            android:checked="false" />
+
+        <TextView
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trafikslag"
+            android:id="@+id/trafikslag"
+            android:layout_below="@+id/radioButton1"
+            android:layout_alignStart="@+id/radioButton1"
+            android:layout_marginTop="43dp" />
+
+        <Button
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button1"
+            android:id="@+id/button2"
+            android:layout_alignBaseline="@+id/trafikslag"
+            android:layout_alignBottom="@+id/trafikslag"
+            android:layout_alignStart="@+id/button1" />
+    </RelativeLayout>
+
+    <LinearLayout
+         android:orientation="horizontal"
+         android:layout_marginTop="360dp"
+         android:layout_marginBottom="0dp"
+         android:background="#000"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent">
+
+         <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="fill_parent"
+             android:layout_height="match_parent"
+             android:background="#FFDF000D"
+             android:layout_marginTop="1dp"
+             android:layout_marginBottom="1dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/bevakning"
+                 android:layout_marginTop="17dp"
+                 android:layout_marginLeft="122dp"
+                 android:textStyle="bold"
+                 android:textColor="#fff"
+                 android:id="@+id/bevakningar" />
+         </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

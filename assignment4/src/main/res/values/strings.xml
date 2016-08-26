@@ -5,46 +5,70 @@
     <string name="action_settings">Settings</string>
 
     <string-array name="planet_radius">
-        <item name="earthradius">6378km</item>
-        <item name="neptuneradius">24764km</item>
+
+
         <item name="mercuryradius">2439.7km</item>
         <item name="venusradius">6051.8km</item>
+        <item name="earthradius">6378km</item>
         <item name="marsradius">3396km</item>
         <item name="jupiterradius">71492km</item>
         <item name="saturnradius">60268km</item>
         <item name="uranusradius">25559km</item>
+        <item name="neptuneradius">24764km</item>
 
 
     </string-array>
 
     <string-array name="temp">
-        <item name="earthtemp">288 K</item>
-        <item name="neptunetemp">72 K</item>
+
+
         <item name="mercurytemp">340 K</item>
         <item name="venustemp">737 K</item>
+        <item name="earthtemp">288 K</item>
         <item name="marstemp">210 K</item>
         <item name="jupitertemp">165 K</item>
         <item name="saturntemp">134 K</item>
         <item name="uranustemp">76 K</item>
+        <item name="neptunetemp">72 K</item>
 
     </string-array>
 
 
 
     <string-array name="planet_names">
-        <item name="earth">earth</item>
+        <item name="mercury">mercury</item>
         <item name="venus">venus</item>
+        <item name="earth">earth</item>
+
         <item name="mars">mars</item>
         <item name="jupiter">jupiter</item>
-        <item name="mercury">mercury</item>
+        <item name="saturn">saturn</item>
         <item name="uranus">uranus</item>
         <item name="neptune">neptune</item>
-        <item name="saturn">saturn</item>
+
 
     </string-array>
 
     <string-array name="planet_infos">
-    <item name="earthinfo">
+
+
+ <item name="mercuryinfo">
+        Mercury is the smallest and closest to the Sun of the eight planets in the Solar
+        System, with an orbital period of about 88 Earth days. Seen from Earth, it appears to
+        move around its orbit in about 116 days, which is much faster than any other planet in the
+        Solar System. It has no known natural satellites. The planet is named after the Roman
+        deity Mercury, the messenger to the gods.
+    </item>
+
+    <item name="venusinfo">
+    Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. It has no
+    natural satellite. It is named after the Roman goddess of love and beauty. After the Moon,
+    it is the brightest natural object in the night sky, reaching an apparent magnitude of −4.6,
+    bright enough to cast shadows. Because Venus is an inferior planet from Earth, it never
+    appears to venture far from the Sun: its elongation reaches a maximum of 47.8°.
+    </item>
+
+         <item name="earthinfo">
     Earth, also called the world and, less frequently, Gaia (and Terra in some works
     of science fiction) is the third planet from the Sun, the densest planet in the Solar
     System, the largest of the Solar Systems four terrestrial planets, and the only astronomical
@@ -55,15 +79,6 @@
      including over 7.3 billion humans who depend upon its biosphere and minerals. Earths
     human population is divided among about two hundred sovereign states which interact through
     diplomacy, conflict, travel, trade and communication media.
-    </item>
-
-
-    <item name="venusinfo">
-    Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. It has no
-    natural satellite. It is named after the Roman goddess of love and beauty. After the Moon,
-    it is the brightest natural object in the night sky, reaching an apparent magnitude of −4.6,
-    bright enough to cast shadows. Because Venus is an inferior planet from Earth, it never
-    appears to venture far from the Sun: its elongation reaches a maximum of 47.8°.
     </item>
 
 
@@ -94,14 +109,15 @@
     (Mars can briefly match Jupiters brightness at certain points in its orbit.)
     </item>
 
-
-    <item name="mercuryinfo">
-        Mercury is the smallest and closest to the Sun of the eight planets in the Solar
-        System, with an orbital period of about 88 Earth days. Seen from Earth, it appears to
-        move around its orbit in about 116 days, which is much faster than any other planet in the
-        Solar System. It has no known natural satellites. The planet is named after the Roman
-        deity Mercury, the messenger to the gods.
+         <item name="saturninfo">
+       Saturn is the sixth planet from the Sun and the second largest in the Solar System,
+        after Jupiter. It is a gas giant with an average radius about nine times that of Earth.
+        Although only one-eighth the average density of Earth, with its larger volume
+        Saturn is just over 95 times more massive. Saturn is named after the Roman
+        god of agriculture, its astronomical symbol represents the gods sickle.
     </item>
+
+
 
 
     <item name="uranusinfo">
@@ -131,13 +147,6 @@
 
 
 
-    <item name="saturninfo">
-       Saturn is the sixth planet from the Sun and the second largest in the Solar System,
-        after Jupiter. It is a gas giant with an average radius about nine times that of Earth.
-        Although only one-eighth the average density of Earth, with its larger volume
-        Saturn is just over 95 times more massive. Saturn is named after the Roman
-        god of agriculture, its astronomical symbol represents the gods sickle.
-    </item>
 
     </string-array>
 

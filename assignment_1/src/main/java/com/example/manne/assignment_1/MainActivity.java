@@ -21,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
         Resources res = getResources();
 
         final String[] quotes = res.getStringArray(R.array.quotes);
-
+//hej
         Button button = (Button)findViewById(R.id.button);
         Log.i("OnCreate","Launched");
         quote.getTextColors();

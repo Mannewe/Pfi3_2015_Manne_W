@@ -38,7 +38,7 @@ public class PlanetFragment extends Fragment implements AdapterView.OnItemClickL
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_planets, container, false);
-
+        planets.clear();
         int [] planetImages = {
                 R.drawable.mercury,
                 R.drawable.venus,
@@ -76,6 +76,7 @@ public class PlanetFragment extends Fragment implements AdapterView.OnItemClickL
 
         FragmentManager fm = getFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
+
         InfoFragment infoFragment = new InfoFragment();
         Bundle b = new Bundle();
         b.putSerializable("planets", planets.get(position));
